@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <VideoView
+        android:id="@+id/videoaa"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        />
+
+    <View
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="360dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/azulclaro"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:text="A"
+        android:textSize="100sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="350dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="210dp"
+        android:src="@drawable/tap"
+        />
+
+    <Button
+    android:id="@+id/botseta"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_gravity="end|center_vertical|bottom"
+    android:background="@drawable/seta"
+
+    android:onClick="setavideoe"
+    />
+</FrameLayout>

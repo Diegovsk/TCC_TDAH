@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ic_onda" />
+
+    <ImageView
+        android:src="@drawable/boca"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="45dp" />
+
+    <Button
+        android:id="@+id/botJogar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:text="JOGAR"
+        android:textSize="35sp"
+        android:textColor="@color/colorAccent"
+        android:background="@color/coramarelo"
+
+        android:onClick="proximaTela"
+        />
+</FrameLayout>
+
+
+

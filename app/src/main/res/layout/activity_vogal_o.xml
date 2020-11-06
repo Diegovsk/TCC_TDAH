@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/limao">
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal|end"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/oboca" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/o" />
+
+    <Button
+        android:id="@+id/botsomO"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="380dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/sound"
+
+        android:onClick="somo" />
+
+    <Button
+        android:id="@+id/botseta2"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_gravity="end|center_vertical|bottom"
+        android:background="@drawable/seta"
+
+        android:onClick="setau"/>
+
+</FrameLayout>

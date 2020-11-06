@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.alexandre.tdah">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/boca"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/boca"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".VideoUActivity"></activity>
+        <activity android:name=".VideoOActivity" />
+        <activity android:name=".VideoIActivity" />
+        <activity android:name=".VideoEActivity" />
+        <activity android:name=".VideoAActivity" />
+        <activity android:name=".AnimaisUActivity" />
+        <activity android:name=".AnimaisOActivity" />
+        <activity android:name=".AnimaisIActivity" />
+        <activity android:name=".AnimaisEActivity" />
+        <activity android:name=".AnimaisAActivity" />
+        <activity android:name=".VogalUActivity" />
+        <activity android:name=".VogalOActivity" />
+        <activity android:name=".VogalIActivity" />
+        <activity android:name=".VogalEActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".VogalAActivity" />
+        <activity android:name=".VogaisActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

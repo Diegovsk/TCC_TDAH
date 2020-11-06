@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <View
+        android:background="@drawable/dadin"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+    />
+
+    <ImageView
+        android:src="@drawable/boca"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/botsomA"
+        android:background="@drawable/play"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="165dp"
+        />
+
+    <EditText
+        android:id="@+id/letraA"
+        android:hint="Qual a letra?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="80dp"
+
+        />
+
+    <Button
+        android:id="@+id/botsomE"
+        android:background="@drawable/play"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="240dp"
+        />
+
+</FrameLayout>
