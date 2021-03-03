@@ -1,41 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-   >
-//teste se atualizou
+    android:orientation="vertical">
+    //teste se atualizou
+
     <View
-        android:layout_width="match_parent"
-        android:layout_height="270dp"
-        android:background="@color/colorPrimaryDark" />
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="187dp"
-        android:layout_gravity="center_vertical"
-        android:background="@drawable/ic_onda" />
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_onda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="245dp"
+        android:layout_height="353dp"
+        android:layout_marginTop="64dp"
+        android:paddingTop="45dp"
         android:src="@drawable/boca"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_gravity="center_horizontal"
-        android:paddingTop="45dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/botJogar"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_gravity="bottom"
-        android:text="JOGAR"
-        android:textSize="35sp"
-        android:textColor="@color/colorAccent"
+        android:layout_width="0dp"
+        android:layout_height="79dp"
         android:background="@color/coramarelo"
-
         android:onClick="proximaTela"
-        />
-</FrameLayout>
+        android:text="JOGAR"
+        android:textColor="@color/colorAccent"
+
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
 
 
 
