@@ -49,20 +49,13 @@
         android:background="@drawable/elephant"/>
 
     <TextView
-        android:text="Elefante"
-        android:textSize="30sp"
-        android:textColor="@color/colorAccent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
         android:layout_marginTop="235dp"
-        android:layout_marginLeft="220dp"/>
-
-    <View
-        android:layout_width="120dp"
-        android:layout_height="1dp"
-        android:layout_marginTop="270dp"
-        android:layout_marginLeft="215dp"
-        android:background="@color/colorAccent"/>
+        android:text="ELEFANTE"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
 
     <ImageView
         android:layout_width="100dp"
@@ -72,20 +65,13 @@
         android:background="@drawable/esquilo"/>
 
     <TextView
-        android:text="Esquilo"
-        android:textSize="30sp"
-        android:textColor="@color/colorAccent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
         android:layout_marginTop="365dp"
-        android:layout_marginLeft="220dp"/>
-
-    <View
-        android:layout_width="120dp"
-        android:layout_height="1dp"
-        android:layout_marginTop="400dp"
-        android:layout_marginLeft="215dp"
-        android:background="@color/colorAccent"/>
+        android:text="ESQUILO"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
 
     <ImageView
         android:layout_width="100dp"
@@ -95,20 +81,13 @@
         android:background="@drawable/star"/>
 
     <TextView
-        android:text="Estrela-do-mar"
-        android:textSize="30sp"
-        android:textColor="@color/colorAccent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
         android:layout_marginTop="495dp"
-        android:layout_marginLeft="220dp"/>
-
-    <View
-        android:layout_width="140dp"
-        android:layout_height="1dp"
-        android:layout_marginTop="530dp"
-        android:layout_marginLeft="215dp"
-        android:background="@color/colorAccent"/>
+        android:text="ESTRELA-DO-MAR"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
 
     <ImageView
         android:layout_width="70dp"

@@ -50,20 +50,13 @@
         android:background="@drawable/abelha"/>
 
     <TextView
-        android:text="Abelha"
-        android:textSize="40sp"
-        android:textColor="@color/colorAccent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
         android:layout_marginTop="235dp"
-        android:layout_marginLeft="220dp"/>
-
-    <View
-        android:layout_width="140dp"
-        android:layout_height="1dp"
-        android:layout_marginTop="280dp"
-        android:layout_marginLeft="215dp"
-        android:background="@color/colorAccent"/>
+        android:text="ABELHA"
+        android:textColor="@color/colorAccent"
+        android:textSize="40sp" />
 
     <ImageView
         android:layout_width="100dp"
@@ -73,20 +66,13 @@
         android:background="@drawable/aranha"/>
 
     <TextView
-        android:text="Aranha"
-        android:textSize="40sp"
-        android:textColor="@color/colorAccent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
         android:layout_marginTop="365dp"
-        android:layout_marginLeft="220dp"/>
-
-    <View
-        android:layout_width="140dp"
-        android:layout_height="1dp"
-        android:layout_marginTop="410dp"
-        android:layout_marginLeft="215dp"
-        android:background="@color/colorAccent"/>
+        android:text="ARANHA"
+        android:textColor="@color/colorAccent"
+        android:textSize="40sp" />
 
     <ImageView
         android:layout_width="120dp"
@@ -96,20 +82,13 @@
         android:background="@drawable/arara"/>
 
     <TextView
-        android:text="Arara"
-        android:textSize="40sp"
-        android:textColor="@color/colorAccent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
         android:layout_marginTop="495dp"
-        android:layout_marginLeft="220dp"/>
-
-    <View
-        android:layout_width="140dp"
-        android:layout_height="1dp"
-        android:layout_marginTop="540dp"
-        android:layout_marginLeft="215dp"
-        android:background="@color/colorAccent"/>
+        android:text="ARARA"
+        android:textColor="@color/colorAccent"
+        android:textSize="40sp" />
 
     <ImageView
         android:layout_width="70dp"

@@ -49,20 +49,13 @@
         android:background="@drawable/urso"/>
 
     <TextView
-        android:text="Urso"
-        android:textSize="30sp"
-        android:textColor="@color/colorAccent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
         android:layout_marginTop="285dp"
-        android:layout_marginLeft="220dp"/>
-
-    <View
-        android:layout_width="100dp"
-        android:layout_height="1dp"
-        android:layout_marginTop="320dp"
-        android:layout_marginLeft="200dp"
-        android:background="@color/colorAccent"/>
+        android:text="URSO"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
 
     <ImageView
         android:layout_width="200dp"
@@ -72,20 +65,13 @@
         android:background="@drawable/urubu"/>
 
     <TextView
-        android:text="Urubu"
-        android:textSize="30sp"
-        android:textColor="@color/colorAccent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
         android:layout_marginTop="460dp"
-        android:layout_marginLeft="220dp"/>
-
-    <View
-        android:layout_width="120dp"
-        android:layout_height="1dp"
-        android:layout_marginTop="495dp"
-        android:layout_marginLeft="200dp"
-        android:background="@color/colorAccent"/>
+        android:text="URUBU"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
 
     <ImageView
         android:layout_width="70dp"
