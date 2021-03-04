@@ -16,6 +16,8 @@
         android:layout_gravity="left|center_horizontal|center"
         android:background="@drawable/fundomenu"/>
 
+    //teste
+
     <Button
         android:id="@+id/gameboca"
         android:layout_width="100dp"
