@@ -74,15 +74,15 @@
         android:background="@drawable/fundomenu"/>
 
     <Button
-        android:id="@+id/gamefrutas"
+        android:id="@+id/gameEncVocal"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="180dp"
         android:layout_marginRight="30dp"
         android:layout_gravity="right|center"
-        android:background="@drawable/morango"
+        android:background="@drawable/abcimg"
 
-        android:onClick="gamefrutas"/>
+        android:onClick="gameEncVocal"/>
 
     <ImageView
         android:layout_width="230dp"
