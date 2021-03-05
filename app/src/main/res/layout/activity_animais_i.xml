@@ -51,11 +51,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="220dp"
+        android:layout_marginLeft="230dp"
         android:layout_marginTop="305dp"
-        android:text="IGUANA"
+        android:text="GUANA"
         android:textColor="@color/colorAccent"
         android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="290dp"
+        android:text="I"
+        android:textColor="@color/marrom"
+        android:textSize="55sp"
+        />
 
     <ImageView
         android:layout_width="70dp"
