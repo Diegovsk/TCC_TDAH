@@ -52,9 +52,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="220dp"
-        android:layout_marginTop="235dp"
-        android:text="ABELHA"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="215dp"
+        android:text="A"
+        android:textColor="@color/azul"
+        android:textSize="55sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="230dp"
+        android:text="BELHA"
         android:textColor="@color/colorAccent"
         android:textSize="40sp" />
 
@@ -68,11 +78,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="220dp"
+        android:layout_marginLeft="240dp"
         android:layout_marginTop="365dp"
-        android:text="ARANHA"
+        android:text="RANHA"
         android:textColor="@color/colorAccent"
         android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="350dp"
+        android:text="A"
+        android:textColor="@color/azul"
+        android:textSize="55sp"
+        />
 
     <ImageView
         android:layout_width="120dp"
@@ -86,9 +106,19 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="220dp"
         android:layout_marginTop="495dp"
-        android:text="ARARA"
+        android:text="RARA"
         android:textColor="@color/colorAccent"
         android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="480dp"
+        android:text="A"
+        android:textColor="@color/azul"
+        android:textSize="55sp"
+        />
 
     <ImageView
         android:layout_width="70dp"
