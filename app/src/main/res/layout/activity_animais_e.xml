@@ -51,11 +51,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="220dp"
+        android:layout_marginLeft="230dp"
         android:layout_marginTop="235dp"
-        android:text="ELEFANTE"
+        android:text="LEFANTE"
         android:textColor="@color/colorAccent"
         android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="210dp"
+        android:text="E"
+        android:textColor="@color/marrom"
+        android:textSize="55sp"
+        />
 
     <ImageView
         android:layout_width="100dp"
@@ -67,11 +77,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="220dp"
+        android:layout_marginLeft="235dp"
         android:layout_marginTop="365dp"
-        android:text="ESQUILO"
+        android:text="SQUILO"
         android:textColor="@color/colorAccent"
         android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="340dp"
+        android:text="E"
+        android:textColor="@color/marrom"
+        android:textSize="55sp"
+        />
 
     <ImageView
         android:layout_width="100dp"
@@ -83,11 +103,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="220dp"
+        android:layout_marginLeft="230dp"
         android:layout_marginTop="495dp"
-        android:text="ESTRELA-DO-MAR"
+        android:text="STRELA-DO-MAR"
         android:textColor="@color/colorAccent"
         android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="470dp"
+        android:text="E"
+        android:textColor="@color/marrom"
+        android:textSize="55sp"
+        />
 
     <ImageView
         android:layout_width="70dp"
