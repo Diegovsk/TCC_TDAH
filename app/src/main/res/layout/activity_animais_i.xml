@@ -73,6 +73,8 @@
         android:layout_marginTop="340dp"
         android:layout_marginLeft="20dp"
         android:background="@drawable/play"
+
+        android:onClick="tocar1I"
         />
 
     <ImageView

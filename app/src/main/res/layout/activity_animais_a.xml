@@ -126,6 +126,8 @@
         android:layout_marginTop="200dp"
         android:layout_marginLeft="20dp"
         android:background="@drawable/play"
+
+        android:onClick="tocar1A"
         />
 
     <ImageView
@@ -134,6 +136,8 @@
         android:layout_marginTop="340dp"
         android:layout_marginLeft="20dp"
         android:background="@drawable/play"
+
+        android:onClick="tocar2A"
         />
 
     <ImageView
@@ -142,6 +146,8 @@
         android:layout_marginTop="480dp"
         android:layout_marginLeft="20dp"
         android:background="@drawable/play"
+
+        android:onClick="tocar3A"
         />
 
     <ImageView

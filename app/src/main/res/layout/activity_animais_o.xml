@@ -99,6 +99,8 @@
         android:layout_marginTop="250dp"
         android:layout_marginLeft="20dp"
         android:background="@drawable/play"
+
+        android:onClick="tocar1O"
         />
 
     <ImageView
@@ -107,6 +109,8 @@
         android:layout_marginTop="420dp"
         android:layout_marginLeft="20dp"
         android:background="@drawable/play"
+
+        android:onClick="tocar2O"
         />
 
 
