@@ -28,4 +28,9 @@ public class MenuActivity extends AppCompatActivity {
         Intent intent = new Intent(this, VideoAActivity.class);
         startActivity(intent);
     }
+
+    public void gameEncVocal(View view){
+        Intent intent = new Intent(this, EncVocalActivity.class);
+        startActivity(intent);
+    }
 }
