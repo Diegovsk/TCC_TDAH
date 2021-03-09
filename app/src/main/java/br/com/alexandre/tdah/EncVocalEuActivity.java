@@ -6,16 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class EncVocalEiActivity extends AppCompatActivity {
+public class EncVocalEuActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_enc_vocal_ei);
+        setContentView(R.layout.activity_enc_vocal_eu);
     }
 
-    public void setaEncVocalEu(View view){
-        Intent intent = new Intent(this, EncVocalEuActivity.class);
+    public void setaEncVocalOi(View view){
+        Intent intent = new Intent(this, EncVocalOiActivity.class);
         startActivity(intent);
     }
+
 }
