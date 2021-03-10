@@ -56,7 +56,7 @@
         android:layout_gravity="end|center_vertical|bottom"
         android:background="@drawable/seta"
 
-        android:onClick="setaEncVocalUi"
+        android:onClick="setaEncVocalUai"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

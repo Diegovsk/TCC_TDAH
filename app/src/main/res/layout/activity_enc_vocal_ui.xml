@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EncVocalEuActivity"
-    android:background="@color/colorPrimaryDark">
+    tools:context=".EncVocalUiActivity"
+    android:background="@color/colorPrimary">
 
     <VideoView
         android:id="@+id/videoaa"
@@ -20,7 +20,7 @@
         android:layout_height="130dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="220dp"
-        android:background="@color/marrom"
+        android:background="@color/rosaclaro"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -31,7 +31,7 @@
         android:layout_height="120dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="228dp"
-        android:text="Eu"
+        android:text="Ui"
         android:textColor="@color/colorAccent"
         android:textSize="100sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -56,7 +56,7 @@
         android:layout_gravity="end|center_vertical|bottom"
         android:background="@drawable/seta"
 
-        android:onClick="setaEncVocalOi"
+        android:onClick="setamenu4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

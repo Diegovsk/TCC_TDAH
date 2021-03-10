@@ -10,7 +10,6 @@
     android:paddingTop="25dp"
     android:paddingRight="25dp">
 
-    //teste
 
     <Button
         android:id="@+id/gameboca"

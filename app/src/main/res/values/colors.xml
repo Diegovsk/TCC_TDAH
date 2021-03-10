@@ -22,4 +22,8 @@
     <color name="azulclaro">#15DFDF</color>
     <color name="preto">#000000</color>
     <color name="marrom">#462C26</color>
+    <color name="vinho">#320101</color>
+    <color name="rosaclaro">#E6BFBF</color>
+    <color name="verdep">#86F4BC</color>
+    <color name="laranjap">#F86B58</color>
 </resources>

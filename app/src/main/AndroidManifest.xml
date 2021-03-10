@@ -9,7 +9,10 @@
         android:roundIcon="@drawable/boca"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EncVocalOiActivity"></activity>
+        <activity android:name=".EncVocalUauActivity"></activity>
+        <activity android:name=".EncVocalUaiActivity" />
+        <activity android:name=".EncVocalUiActivity" />
+        <activity android:name=".EncVocalOiActivity" />
         <activity android:name=".EncVocalEuActivity" />
         <activity android:name=".EncVocalEiActivity" />
         <activity android:name=".EncVocalAuActivity" />
