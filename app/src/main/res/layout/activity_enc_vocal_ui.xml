@@ -20,7 +20,7 @@
         android:layout_height="130dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="220dp"
-        android:background="@color/rosaclaro"
+        android:background="@color/laranjap"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
