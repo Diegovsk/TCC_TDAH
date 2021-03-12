@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".EncVocalOiActivity"
-    android:background="@color/verdeclaro">
+    android:background="@color/roxo">
 
     <VideoView
         android:id="@+id/videoaa"
@@ -20,7 +20,7 @@
         android:layout_height="130dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="220dp"
-        android:background="@color/limao"
+        android:background="@color/roxoescuro"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
