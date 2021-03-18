@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class VogalEActivity extends AppCompatActivity {
+    public MediaPlayer mp1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,5 +26,8 @@ public class VogalEActivity extends AppCompatActivity {
     public void setai(View view){
         Intent intent = new Intent(this, VogalIActivity.class);
         startActivity(intent);
+
+        MediaPlayer mp1 = MediaPlayer.create(this, R.raw.click);
+        mp1.start();
     }
 }

@@ -12,6 +12,7 @@ import android.media.MediaPlayer;
 
 public class AnimaisEActivity extends AppCompatActivity {
     private MediaPlayer mp;
+    public MediaPlayer mpp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +38,9 @@ public class AnimaisEActivity extends AppCompatActivity {
     }
 
     public void setaanimaisi(View view){
+        MediaPlayer mpp = MediaPlayer.create(this, R.raw.click);
+        mpp.start();
+
         Intent intent = new Intent(this, AnimaisIActivity.class);
         startActivity(intent);
     }

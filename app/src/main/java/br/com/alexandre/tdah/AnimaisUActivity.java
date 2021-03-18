@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 public class AnimaisUActivity extends AppCompatActivity {
     public MediaPlayer mp;
+    public MediaPlayer mpp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,9 @@ public class AnimaisUActivity extends AppCompatActivity {
     }
 
     public void setamenu2(View view){
+        MediaPlayer mpp = MediaPlayer.create(this, R.raw.click);
+        mpp.start();
+
         ImageView ii = new ImageView(getApplicationContext());
         ii.setImageResource(R.drawable.confirm);
 

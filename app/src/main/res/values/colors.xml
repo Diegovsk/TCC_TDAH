@@ -19,8 +19,10 @@
     <color name="cinza">#635858</color>
     <color name="brancot">#A4FFFFFF</color>
     <color name="limao">#CCF809</color>
+    <color name="limao2">#C3CCF809</color>
     <color name="azulclaro">#15DFDF</color>
     <color name="preto">#000000</color>
+    <color name="preto2">#C6000000</color>
     <color name="marrom">#462C26</color>
     <color name="vinho">#320101</color>
     <color name="rosaclaro">#E6BFBF</color>

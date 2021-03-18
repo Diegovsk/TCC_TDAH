@@ -3,6 +3,7 @@ package br.com.alexandre.tdah;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -12,6 +13,7 @@ import android.widget.Toast;
 import android.widget.VideoView;
 
 public class EncVocalUiActivity extends AppCompatActivity {
+    public MediaPlayer mp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +33,9 @@ public class EncVocalUiActivity extends AppCompatActivity {
     }
 
     public void setamenu4(View view){
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.click);
+        mp.start();
+
         ImageView ii = new ImageView(getApplicationContext());
         ii.setImageResource(R.drawable.confirm);
 

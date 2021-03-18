@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/boca"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EncVocalUauActivity"></activity>
+        <activity android:name=".MenuCopiaActivity"></activity>
+        <activity android:name=".EncVocalUauActivity" />
         <activity android:name=".EncVocalUaiActivity" />
         <activity android:name=".EncVocalUiActivity" />
         <activity android:name=".EncVocalOiActivity" />
@@ -33,7 +34,6 @@
         <activity android:name=".VogalEActivity" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".VogalAActivity" />
-        <activity android:name=".VogaisActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

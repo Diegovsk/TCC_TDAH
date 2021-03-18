@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 public class VogalUActivity extends AppCompatActivity {
+    public MediaPlayer mp1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,9 @@ public class VogalUActivity extends AppCompatActivity {
     }
 
     public void setamenu(View view){
+        MediaPlayer mp1 = MediaPlayer.create(this, R.raw.click);
+        mp1.start();
+
         ImageView i = new ImageView(getApplicationContext());
         i.setImageResource(R.drawable.confirm);
 

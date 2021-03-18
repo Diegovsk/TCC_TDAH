@@ -9,6 +9,7 @@ import android.media.MediaPlayer;
 
 public class AnimaisIActivity extends AppCompatActivity {
     private MediaPlayer mp;
+    public MediaPlayer mpp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,9 @@ public class AnimaisIActivity extends AppCompatActivity {
 
 
     public void setaanimaiso(View view){
+        MediaPlayer mpp = MediaPlayer.create(this, R.raw.click);
+        mpp.start();
+
         Intent intent = new Intent(this, AnimaisOActivity.class);
         startActivity(intent);
     }

@@ -9,22 +9,27 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class MenuCopiaActivity extends AppCompatActivity {
     public MediaPlayer mp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_menu_copia);
+    }
 
-        }
-
-    public void proximaTela(View view){
-        Intent intent  = new Intent(this, MenuCopiaActivity.class);
+    public void setamenureal (View view){
+        Intent intent  = new Intent(this, MenuActivity.class);
         ActivityOptionsCompat activityOptionsCompat = ActivityOptionsCompat.makeCustomAnimation(getApplicationContext(),R.transition.fade_in, R.transition.mover_direita);
-        ActivityCompat.startActivity(MainActivity.this, intent, activityOptionsCompat.toBundle());
+        ActivityCompat.startActivity(MenuCopiaActivity.this, intent, activityOptionsCompat.toBundle());
 
         MediaPlayer mp = MediaPlayer.create(this, R.raw.click);
         mp.start();
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.transition.mover_esquerda, R.transition.fade_out);
     }
 }

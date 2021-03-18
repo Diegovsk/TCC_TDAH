@@ -6,9 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.media.MediaPlayer;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 public class AnimaisAActivity extends AppCompatActivity {
     public MediaPlayer mp;
+    public MediaPlayer mpp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +37,9 @@ public class AnimaisAActivity extends AppCompatActivity {
     }
 
     public void setaanimaise(View view){
+        MediaPlayer mpp = MediaPlayer.create(this, R.raw.click);
+        mpp.start();
+
         Intent intent = new Intent(this, AnimaisEActivity.class);
         startActivity(intent);
     }
