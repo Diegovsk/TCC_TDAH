@@ -14,7 +14,7 @@
             android:id="@+id/imageView3"
             android:layout_width="230dp"
             android:layout_height="220dp"
-            android:layout_marginTop="72dp"
+            android:layout_marginTop="132dp"
             android:background="@drawable/gamer"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
@@ -92,7 +92,7 @@
             android:id="@+id/gifImageView"
             android:layout_width="250dp"
             android:layout_height="250dp"
-            android:layout_marginTop="52dp"
+            android:layout_marginTop="64dp"
             android:background="@drawable/brilho"
             android:src="@drawable/brilho"
             app:layout_constraintEnd_toEndOf="parent"
@@ -101,12 +101,34 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <View
+            android:id="@+id/view5"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/preto2"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="0dp"
-            />
+            tools:layout_editor_absoluteY="28dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="297dp"
+            android:background="@drawable/ondaverde"
+            android:foregroundGravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:fontFamily="casual"
+            android:text="Olá, seja Bem-Vindo(a)!"
+            android:textColor="@color/preto"
+            android:textSize="45sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <View
             android:layout_width="300dp"

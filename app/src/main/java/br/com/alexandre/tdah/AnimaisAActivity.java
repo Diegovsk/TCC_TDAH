@@ -10,21 +10,28 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 public class AnimaisAActivity extends AppCompatActivity {
-    public MediaPlayer mp;
     public MediaPlayer mpp;
+    public MediaPlayer mp = MediaPlayer.create(this, R.raw.menu_letra_a);;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_animais_a);
-        MediaPlayer mp = MediaPlayer.create(this, R.raw.menu_letra_a);
         mp.start();
     }
 
     public void tocar1A (View view){
+        mp.pause();
         MediaPlayer mp1 = MediaPlayer.create(this, R.raw.som_abelha);
         mp1.start();
+
     }
+
+    //protected void onStop(){
+        //super.onStop();
+        //mp.stop();
+        //mp.release();
+    //}
 
     public void tocar2A (View view){
         MediaPlayer mp2 = MediaPlayer.create(this, R.raw.som_aranha);
