@@ -49,14 +49,15 @@ public class AnimaisAActivity extends AppCompatActivity {
     }
 
     public void setaanimaise(View view){
+        mpmenu.pause();
         if (mp3 != null) {
             mp3.pause();
             mpseta = MediaPlayer.create(this, R.raw.click);
             mpseta.start();
-        }else{
+        }
             Intent intent = new Intent(this, AnimaisEActivity.class);
             startActivity(intent);
         }
     }
-}
+
 

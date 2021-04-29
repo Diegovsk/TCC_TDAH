@@ -38,13 +38,14 @@ public class AnimaisOActivity extends AppCompatActivity {
     }
 
     public void setaanimaisu(View view){
+        mpmenu.pause();
         if (mp2 != null) {
             mp2.pause();
             mpseta = MediaPlayer.create(this, R.raw.click);
             mpseta.start();
-        }else{
+        }
             Intent intent = new Intent(this, AnimaisUActivity.class);
             startActivity(intent);
         }
     }
-}
+

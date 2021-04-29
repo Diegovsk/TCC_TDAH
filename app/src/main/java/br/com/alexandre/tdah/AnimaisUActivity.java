@@ -40,12 +40,12 @@ public class AnimaisUActivity extends AppCompatActivity {
     }
 
     public void setamenu2(View view){
+        mpmenu.pause();
         if (mp2 != null) {
             mp2.pause();
             mpseta = MediaPlayer.create(this, R.raw.click);
             mpseta.start();
-        }else
-        {
+        }
             ImageView ii = new ImageView(getApplicationContext());
             ii.setImageResource(R.drawable.confirm);
 
@@ -58,4 +58,4 @@ public class AnimaisUActivity extends AppCompatActivity {
             startActivity(intent);
         }
     }
-}
+

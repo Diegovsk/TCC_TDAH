@@ -30,13 +30,14 @@ public class AnimaisIActivity extends AppCompatActivity {
 
 
     public void setaanimaiso(View view) {
+        mpmenu.pause();
         if (mp1 != null) {
             mp1.pause();
             mpseta = MediaPlayer.create(this, R.raw.click);
             mpseta.start();
-        }else{
+        }
             Intent intent = new Intent(this, AnimaisOActivity.class);
             startActivity(intent);
         }
     }
-}
+
