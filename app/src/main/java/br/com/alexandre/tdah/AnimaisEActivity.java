@@ -11,37 +11,52 @@ import android.widget.VideoView;
 import android.media.MediaPlayer;
 
 public class AnimaisEActivity extends AppCompatActivity {
-    private MediaPlayer mp;
-    public MediaPlayer mpp;
+    public MediaPlayer mpmenu;
+    public MediaPlayer mp1;
+    public MediaPlayer mp2;
+    public MediaPlayer mp3;
+    public MediaPlayer mpseta;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_animais_e);
-        MediaPlayer mp = MediaPlayer.create(this, R.raw.menu_letra_e);
-        mp.start();
+        mpmenu = MediaPlayer.create(this, R.raw.menu_letra_e);
+        mpmenu.start();
     }
 
-    public void tocar1E(View view){
-        MediaPlayer mp1 = MediaPlayer.create(this, R.raw.som_elefante);
-        mp1.start();
+    public void tocar1E(View view) {
+        if (mpmenu != null) {
+            mpmenu.pause();
+            mp1 = MediaPlayer.create(this, R.raw.som_elefante);
+            mp1.start();
+        }
     }
 
     public void tocar2E (View view){
-        MediaPlayer mp2 = MediaPlayer.create(this, R.raw.som_esquilo);
-        mp2.start();
+         if (mp1 != null) {
+             mp1.pause();
+             mp2 = MediaPlayer.create(this, R.raw.som_esquilo);
+             mp2.start();
+         }
     }
 
     public void tocar3E (View view){
-        MediaPlayer mp3 = MediaPlayer.create(this, R.raw.som_estreladm);
-        mp3.start();
+        if (mp2 != null) {
+            mp2.pause();
+            mp3 = MediaPlayer.create(this, R.raw.som_estreladm);
+            mp3.start();
+        }
     }
 
     public void setaanimaisi(View view){
-        MediaPlayer mpp = MediaPlayer.create(this, R.raw.click);
-        mpp.start();
-
-        Intent intent = new Intent(this, AnimaisIActivity.class);
-        startActivity(intent);
+        if (mp3 != null) {
+            mp3.pause();
+            mpseta = MediaPlayer.create(this, R.raw.click);
+            mpseta.start();
+        }else{
+            Intent intent = new Intent(this, AnimaisIActivity.class);
+            startActivity(intent);
+        }
     }
 }

@@ -7,9 +7,11 @@
     <color name="azul">#0000FF</color>
     <color name="roxo">#8833DA</color>
     <color name="magenta">#BB00FF</color>
+    <color name="magentap">#9FBB00FF</color>
     <color name="verde">#9FE661</color>
     <color name="vermelho">#F70404</color>
     <color name="rosashock">#FA11DB</color>
+    <color name="rosashockp">#AEFA11DB</color>
     <color name="lilas">#88B549FC</color>
     <color name="creme">#F3D673</color>
     <color name="laranja">#FC2A05</color>
@@ -29,4 +31,5 @@
     <color name="verdep">#86F4BC</color>
     <color name="laranjap">#F86B58</color>
     <color name="roxoescuro">#32048A</color>
+    <color name="azulpastel">#A99CDDF1</color>
 </resources>

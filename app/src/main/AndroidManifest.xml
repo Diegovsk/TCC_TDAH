@@ -9,7 +9,7 @@
         android:roundIcon="@drawable/boca"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MenuCopiaActivity"></activity>
+        <activity android:name=".MenuCopiaActivity" />
         <activity android:name=".EncVocalUauActivity" />
         <activity android:name=".EncVocalUaiActivity" />
         <activity android:name=".EncVocalUiActivity" />

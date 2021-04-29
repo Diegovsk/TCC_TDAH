@@ -10,44 +10,53 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 public class AnimaisAActivity extends AppCompatActivity {
-    public MediaPlayer mpp;
-    public MediaPlayer mp = MediaPlayer.create(this, R.raw.menu_letra_a);;
+    public MediaPlayer mpmenu;
+    public MediaPlayer mp1;
+    public MediaPlayer mp2;
+    public MediaPlayer mp3;
+    public MediaPlayer mpseta;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_animais_a);
-        mp.start();
+        mpmenu = MediaPlayer.create(this, R.raw.menu_letra_a);
+        mpmenu.start();
     }
 
     public void tocar1A (View view){
-        mp.pause();
-        MediaPlayer mp1 = MediaPlayer.create(this, R.raw.som_abelha);
-        mp1.start();
-
+        if (mpmenu != null) {
+            mpmenu.pause();
+            mp1 = MediaPlayer.create(this, R.raw.som_abelha);
+            mp1.start();
+        }
     }
 
-    //protected void onStop(){
-        //super.onStop();
-        //mp.stop();
-        //mp.release();
-    //}
-
     public void tocar2A (View view){
-        MediaPlayer mp2 = MediaPlayer.create(this, R.raw.som_aranha);
-        mp2.start();
+        if (mp1 != null) {
+            mp1.pause();
+            mp2 = MediaPlayer.create(this, R.raw.som_aranha);
+            mp2.start();
+        }
     }
 
     public void tocar3A (View view){
-        MediaPlayer mp3 = MediaPlayer.create(this, R.raw.som_arara);
-        mp3.start();
+        if (mp2 != null) {
+            mp2.pause();
+            mp3 = MediaPlayer.create(this, R.raw.som_arara);
+            mp3.start();
+        }
     }
 
     public void setaanimaise(View view){
-        MediaPlayer mpp = MediaPlayer.create(this, R.raw.click);
-        mpp.start();
-
-        Intent intent = new Intent(this, AnimaisEActivity.class);
-        startActivity(intent);
+        if (mp3 != null) {
+            mp3.pause();
+            mpseta = MediaPlayer.create(this, R.raw.click);
+            mpseta.start();
+        }else{
+            Intent intent = new Intent(this, AnimaisEActivity.class);
+            startActivity(intent);
+        }
     }
 }
+
