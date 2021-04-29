@@ -4,16 +4,18 @@
     <color name="colorPrimaryDark">#ffd700</color>
     <color name="colorAccent">#FFFFFF</color>
     <color name="coramarelo">#ffd700</color>
+    <color name="preto">#000000</color>
+    <color name="preto2">#E2000000</color>
     <color name="azul">#0000FF</color>
     <color name="roxo">#8833DA</color>
+    <color name="roxoescuro">#32048A</color>
     <color name="magenta">#BB00FF</color>
-    <color name="magentap">#9FBB00FF</color>
+    <color name="rosashock">#FA11DB</color>
+    <color name="lilas">#88B549FC</color>
     <color name="verde">#9FE661</color>
     <color name="vermelho">#F70404</color>
-    <color name="rosashock">#FA11DB</color>
-    <color name="rosashockp">#AEFA11DB</color>
-    <color name="lilas">#88B549FC</color>
     <color name="creme">#F3D673</color>
+    <color name="creme2">#FFF0BD</color>
     <color name="laranja">#FC2A05</color>
     <color name="rosaescuro">#DA0943</color>
     <color name="verdeclaro">#C34CDD42</color>
@@ -23,13 +25,10 @@
     <color name="limao">#CCF809</color>
     <color name="limao2">#C3CCF809</color>
     <color name="azulclaro">#15DFDF</color>
-    <color name="preto">#000000</color>
-    <color name="preto2">#C6000000</color>
+    <color name="azulclaro2">#9715DFDF</color>
     <color name="marrom">#462C26</color>
     <color name="vinho">#320101</color>
     <color name="rosaclaro">#E6BFBF</color>
     <color name="verdep">#86F4BC</color>
     <color name="laranjap">#F86B58</color>
-    <color name="roxoescuro">#32048A</color>
-    <color name="azulpastel">#A99CDDF1</color>
 </resources>

@@ -9,15 +9,34 @@
     android:orientation="horizontal"
     >
 
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/info"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.938"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="350dp"
+            android:layout_height="130dp"
+            android:background="@drawable/fundomenu2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.238" />
 
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="230dp"
             android:layout_height="220dp"
-            android:layout_marginTop="132dp"
+            android:layout_marginTop="100dp"
             android:background="@drawable/gamer"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -49,11 +68,22 @@
             android:id="@+id/view3"
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:layout_marginBottom="264dp"
+            android:layout_marginBottom="268dp"
             android:background="@drawable/fundomenu"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.185"
+            app:layout_constraintHorizontal_bias="0.238"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <View
+            android:id="@+id/gameboca"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="284dp"
+            android:background="@drawable/boca"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.263"
             app:layout_constraintStart_toStartOf="parent" />
 
         <View
@@ -81,11 +111,23 @@
         <View
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:layout_marginBottom="264dp"
+            android:layout_marginBottom="268dp"
             android:background="@drawable/fundomenu"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintHorizontal_bias="0.729"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <View
+            android:id="@+id/gamevideo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="284dp"
+
+            android:background="@drawable/play"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.707"
             app:layout_constraintStart_toStartOf="parent" />
 
         <pl.droidsonroids.gif.GifImageView
@@ -106,18 +148,21 @@
             android:layout_height="match_parent"
             android:background="@color/preto2"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="28dp" />
+            tools:layout_editor_absoluteY="0dp" />
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:background="@drawable/ondaverde"
-            android:foregroundGravity="center"
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:src="@drawable/colorido"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
         <View
+            android:id="@+id/view6"
             android:layout_width="300dp"
             android:layout_height="250dp"
             android:layout_marginBottom="240dp"
@@ -128,6 +173,8 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
+            android:onClick="sombemvindo"
+
             android:layout_width="121dp"
             android:layout_height="121dp"
             android:layout_marginBottom="308dp"
@@ -136,6 +183,17 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.502"
             app:layout_constraintStart_toStartOf="parent" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/tap"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.623" />
 
         <ImageView
             android:layout_width="35dp"
