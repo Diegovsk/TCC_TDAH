@@ -25,53 +25,48 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
 
-        android:layout_marginBottom="280dp"
         android:background="@drawable/boca"
         android:onClick="jogarboca"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.212"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
 
     <Button
         android:id="@+id/gamevideo"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginBottom="280dp"
 
         android:background="@drawable/play"
         android:onClick="gamevideo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.739"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintBottom_toBottomOf="@+id/view8"
+        app:layout_constraintEnd_toEndOf="@+id/view8"
+        app:layout_constraintStart_toStartOf="@+id/view8"
+        app:layout_constraintTop_toTopOf="@+id/view8" />
 
     <Button
         android:id="@+id/gameanimal"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginBottom="128dp"
 
         android:background="@drawable/panda"
         android:onClick="jogaranimal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.212"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
 
     <Button
         android:id="@+id/gameEncVocal"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginBottom="128dp"
 
         android:background="@drawable/abcimg"
         android:onClick="gameEncVocal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.752"
-        app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintBottom_toBottomOf="@+id/view7"
+        app:layout_constraintEnd_toEndOf="@+id/view7"
+        app:layout_constraintStart_toStartOf="@+id/view7"
+        app:layout_constraintTop_toTopOf="@+id/view7" />
 
     <View
         android:id="@+id/view4"
@@ -100,7 +95,7 @@
         android:id="@+id/view2"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:layout_marginBottom="116dp"
+        android:layout_marginBottom="50dp"
         android:background="@drawable/fundomenu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -111,7 +106,7 @@
         android:id="@+id/view3"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:layout_marginBottom="264dp"
+        android:layout_marginBottom="195dp"
         android:background="@drawable/fundomenu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -119,9 +114,10 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <View
+        android:id="@+id/view7"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:layout_marginBottom="116dp"
+        android:layout_marginBottom="50dp"
         android:background="@drawable/fundomenu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -129,9 +125,10 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <View
+        android:id="@+id/view8"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:layout_marginBottom="264dp"
+        android:layout_marginBottom="195dp"
         android:background="@drawable/fundomenu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
