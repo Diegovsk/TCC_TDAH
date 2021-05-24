@@ -33,6 +33,7 @@
         <activity android:name=".VogalIActivity" />
         <activity android:name=".VogalEActivity" />
         <activity android:name=".MenuActivity" />
+        <activity android:name=".MenuInfoActivity" />
         <activity android:name=".VogalAActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

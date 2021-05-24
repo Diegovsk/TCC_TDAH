@@ -15,13 +15,12 @@ public class MenuInfoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_menu_info);
 
     }
 
-
     public void next(View view){
-        Intent intent  = new Intent(this, MenuInfoActivity.class);
+        Intent intent  = new Intent(this, MenuActivity.class);
         ActivityOptionsCompat activityOptionsCompat = ActivityOptionsCompat.makeCustomAnimation(getApplicationContext(),R.transition.fade_in, R.transition.mover_direita);
         ActivityCompat.startActivity(MenuInfoActivity.this, intent, activityOptionsCompat.toBundle());
 

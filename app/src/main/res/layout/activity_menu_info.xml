@@ -159,7 +159,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-        <ImageView
+        <Button
+            android:id="@+id/confirmado"
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:background="@drawable/confirm"
@@ -175,7 +176,7 @@
             android:id="@+id/textView"
             android:layout_width="269dp"
             android:layout_height="351dp"
-            android:text="Este aplicativo foi usado para o trabalho de conclusão de curso do IFMS dos estudantes:\n Diego Moraes (@diegovskrbm) e Geovanna Nascimento (@geordtl).\n\nIcon made by Freepik from www.flaticon.com - Abelha, arara, aranha, bloco abc, panda, elefante.\nIcon made by Smashicons from www.flaticon.com - Boca, esquilo\nIcon made by Flat Icons from www.flaticon.com - Onća-pintuda, Orangotango\nIcon made by Eucalyp from www.flaticon.com - Estrela-do-mar Gif do arco-íris feito por @lauraarpaz"
+            android:text="Este aplicativo foi usado para o trabalho de conclusão de curso do IFMS dos estudantes:\nDiego Moraes (@diegovskrbm) e Geovanna Nascimento (@geordtl).\n\nIcon made by Freepik from www.flaticon.com - Abelha, arara, aranha, bloco abc, panda, elefante.\nIcon made by Smashicons from www.flaticon.com - Boca, esquilo\nIcon made by Flat Icons from www.flaticon.com - Onća-pintuda, Orangotango\nIcon made by Eucalyp from www.flaticon.com - Estrela-do-mar Gif do arco-íris feito por @lauraarpaz"
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="@+id/view6"
             app:layout_constraintEnd_toEndOf="@+id/view6"
