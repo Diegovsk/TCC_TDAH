@@ -58,6 +58,13 @@ public class AnimaisAActivity extends AppCompatActivity {
             Intent intent = new Intent(this, AnimaisEActivity.class);
             startActivity(intent);
         }
+
+    public void onDestroy() {
+        super.onDestroy();
+        if (mpmenu != null) {
+            mpmenu.release();
+        }
+    }
     }
 
 

@@ -33,15 +33,15 @@ public class AnimaisEActivity extends AppCompatActivity {
         }
     }
 
-    public void tocar2E (View view){
-         if (mp1 != null) {
-             mp1.pause();
-             mp2 = MediaPlayer.create(this, R.raw.som_esquilo);
-             mp2.start();
-         }
+    public void tocar2E(View view) {
+        if (mp1 != null) {
+            mp1.pause();
+            mp2 = MediaPlayer.create(this, R.raw.som_esquilo);
+            mp2.start();
+        }
     }
 
-    public void tocar3E (View view){
+    public void tocar3E(View view) {
         if (mp2 != null) {
             mp2.pause();
             mp3 = MediaPlayer.create(this, R.raw.som_estreladm);
@@ -49,15 +49,22 @@ public class AnimaisEActivity extends AppCompatActivity {
         }
     }
 
-    public void setaanimaisi(View view){
+    public void setaanimaisi(View view) {
         mpmenu.pause();
         if (mp3 != null) {
             mp3.pause();
             mpseta = MediaPlayer.create(this, R.raw.click);
             mpseta.start();
         }
-            Intent intent = new Intent(this, AnimaisIActivity.class);
-            startActivity(intent);
+        Intent intent = new Intent(this, AnimaisIActivity.class);
+        startActivity(intent);
+    }
+
+    public void onDestroy() {
+        super.onDestroy();
+        if (mpmenu != null) {
+            mpmenu.release();
         }
     }
+}
 
