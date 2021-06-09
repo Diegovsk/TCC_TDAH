@@ -26,17 +26,16 @@ public class AnimaisAActivity extends AppCompatActivity {
 
     public void tocar1A (View view) {
         mp1 = MediaPlayer.create(this, R.raw.som_abelha);
-        if (mpmenu != null) {
+        if (mpmenu != null || mp1 != null) {
             mpmenu.pause();
-            if (mp1 != null) {
-                mp1.stop();
-                mp1.release();
-                mp1.start();
+
+            mp1.stop();
+            mp1.release();
+            mp1.start();
             } else {
                 mp1.start();
             }
         }
-    }
 
     public void tocar2A (View view){
         if (mp1 != null) {
