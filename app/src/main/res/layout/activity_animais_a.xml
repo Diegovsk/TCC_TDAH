@@ -55,7 +55,7 @@
         android:layout_marginLeft="215dp"
         android:layout_marginTop="215dp"
         android:text="A"
-        android:textColor="@color/azulclaro"
+        android:textColor="@color/azul"
         android:textSize="55sp"
         />
 
@@ -90,7 +90,7 @@
         android:layout_marginLeft="205dp"
         android:layout_marginTop="350dp"
         android:text="A"
-        android:textColor="@color/azulclaro"
+        android:textColor="@color/azul"
         android:textSize="55sp"
         />
 
@@ -116,7 +116,7 @@
         android:layout_marginLeft="185dp"
         android:layout_marginTop="480dp"
         android:text="A"
-        android:textColor="@color/azulclaro"
+        android:textColor="@color/azul"
         android:textSize="55sp"
         />
 
